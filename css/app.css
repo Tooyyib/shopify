@@ -1,0 +1,204 @@
+/* body style */
+body{
+    background: #f1f1f1;
+}
+
+/* first section  */
+/* navbar style */
+
+.nav-parent{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a1a1a;
+    padding: 10px;
+    align-items: center;
+}
+
+/* nav descendant-2  (input) style  */
+
+.meddleinput{
+    width: 400px;
+    align-items: center;
+    color: #a0a0a0;
+    border-radius: 7px;
+    padding: 7px;
+    display: flex;
+    gap: 5px;
+    border: 2px solid #404040;
+    height: 18px;
+    background-color: #3a3a3a;
+}
+.meddleinput input{
+    background-color: #3a3a3a;
+    border: none;
+    width: 400px;
+}
+
+
+
+/* dotted circle input  */
+.dotted-circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid green;
+    border-style: dashed;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+.dotted-circle:hover{
+    background-color: green;
+}
+
+
+.flex-items{
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+
+
+
+
+/* nav descendant-3 style  */
+.nav-child3{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+/* nav descendant-3 button style  */
+/* bell-icon */
+.button1{
+    border-radius: 7px;
+    padding: 5px;
+    cursor: pointer;
+    /* background color overiding svg  */
+}
+/* davii collecton */
+.button2{
+    border-radius: 5px;
+    margin-right: -5px;
+    padding: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #303030;
+    color: #828282;
+}
+/* DC */
+.button3{
+    border-radius: 7px;
+    background-color: #35f79f;
+    padding: 7px;
+    cursor: pointer;
+    color: #26b574;
+}
+.joint{
+    display: flex;
+}
+
+/* navbar media query */
+@media screen {
+    
+}
+
+
+
+
+
+
+
+/* second two  */
+.second{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+/* head parent one  */
+.head1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #b4b1b4;
+    width: 800px;
+    padding: 10px;
+    border-radius: 7px;
+}
+a{
+    text-decoration-line: none;
+    color: #4888dc;
+    font-weight: bold;
+}
+
+/* head button style  */
+.headbutton1{
+    padding: 7px;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #636363;
+}
+.end{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* head parent two  */
+.head2{
+    margin-top: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+}
+/* setup guide style  (first paragraph)*/
+.bold{
+    font-weight: bold;
+}
+
+/* head2 first child style  */
+.head2-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top{
+    margin-top: -20px;
+}
+
+/* haed2 child radio button  */
+.checkmark{
+    background-color: black;
+    border: 2px solid gray;
+    border-style: dashed;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+
+
+/* head3 style  */
+.head3{
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+}
+.head3 button{
+    background-color: #404040;
+    color: #b4b1b4;
+    border-radius: 5px;
+    padding: 7px;
+    width: 100px;
+    cursor: pointer;
+}
+.bolder{
+    font-weight: bold;
+    color: #949494;
+}
+
+
